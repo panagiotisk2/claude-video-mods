@@ -66,9 +66,10 @@ export const register: Register = on => {
   on('tool.call', async ($, e, next) => {
     const match = /^mcp__(.+?)__(.+)$/.exec(e.tool)
     const service = match ? serviceOf(match[1], match[2]) : undefined
-    if (!match || !service || isQuote(e.input)) return next(e)
+    // a tool call carries its arguments as its own fields (e.params, e.duration, ...)
+    if (!match || !service || isQuote(e)) return next(e)
 
-    const what = describe(service, match[2], e.input)
+    const what = describe(service, match[2], e)
     const a = await read($, allowance)
     if (a.calls > 0 && a.until > (await $.clock.now())) {
       await update($, allowance, x => ({ ...x, calls: x.calls - 1 }))
