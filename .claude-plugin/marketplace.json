@@ -1,0 +1,9 @@
+{
+  "name": "claude-video-mods",
+  "owner": { "name": "panagiotisk2" },
+  "plugins": [
+    { "name": "credit-guard", "source": "./credit-guard" },
+    { "name": "render-meter", "source": "./render-meter" },
+    { "name": "reel-board", "source": "./reel-board" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "render-meter",
+  "version": "0.1.0",
+  "description": "A live progress bar above the prompt while a Reel renders",
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "panagiotisk2"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/panagiotisk2/claude-video-mods"
+}

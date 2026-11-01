@@ -1,0 +1,11 @@
+{
+  "name": "reel-board",
+  "version": "0.1.0",
+  "description": "/reels opens a panel with every Reel in the project and the step it is on",
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "panagiotisk2"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/panagiotisk2/claude-video-mods"
+}

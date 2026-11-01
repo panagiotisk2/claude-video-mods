@@ -1,0 +1,11 @@
+{
+  "name": "credit-guard",
+  "version": "0.2.0",
+  "description": "Stops anything that spends Higgsfield or HeyGen credits until you approve it with /approve-credits",
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "panagiotisk2"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/panagiotisk2/claude-video-mods"
+}
