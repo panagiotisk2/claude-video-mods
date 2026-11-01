@@ -10,7 +10,7 @@ Three Claude Code mods for people who make AI videos with Claude Code, Higgsfiel
 
 ## Install
 
-At the prompt of a terminal Claude Code session (2.1.286 or newer), one line per mod:
+At the prompt of a terminal Claude Code session (2.1.287 or newer, as the Claude Code docs ask), one line per mod:
 
 ```
 /plugin install credit-guard --marketplace panagiotisk2/claude-video-mods
